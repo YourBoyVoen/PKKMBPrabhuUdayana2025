@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Sinerva';
+  src: url('/assets/fonts/Sinerva.woff') format('woff'),
+       url('/assets/fonts/Sinerva.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: kalau mau global pakai langsung */
+body {
+  font-family: 'Sinerva', sans-serif;
+}
