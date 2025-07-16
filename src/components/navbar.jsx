@@ -1,3 +1,6 @@
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Fakultas from './pages/fakultas';
+
 export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 z-50 flex justify-between items-center px-8 py-4 bg-white shadow-md">
@@ -8,9 +11,10 @@ export default function Navbar() {
       </div>
       </div>
       <ul className="flex gap-8 text-gray-700 font-medium font-poppins">
-        <li><a href="#" className="hover:text-blue-500 transition">Warta Ksatria</a></li>
+        <li><a href="/Fakultas" className="hover:text-blue-500 transition">Warta Ksatria</a></li>
         <li><a href="#" className="hover:text-blue-500 transition">Jelajah Udayana</a></li>
         <li><a href="#" className="hover:text-blue-500 transition">Ormawa</a></li>
+        <li><Link to="/fakultas" >Fakultas</Link></li>
       </ul>
     </nav>
   );
