@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PKKMB Prabhu Udayana - Organisasi Mahasiswa Fakultas</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../img/logo.webp">
+</head>
+
+<body class="font-gelasio bg-[url(../img/background.webp)] bg-[length:24rem] bg-repeat">
+  <nav class="h-16 py-2 fixed top-0 left-0 w-screen z-10 bg-blue-300">
+    <div class="w-4/5 flex mx-auto h-full justify-between items-center">
+      <div class="flex items-center gap-2 h-full font-bold">
+        <img src="../img/logo.webp" alt="Logo PKKMB" class="h-full">
+        <span class="font-gelasio text-yellow-300 hidden md:inline-block">PKKMB-Prabhu Udayana</span>
+      </div>
+      <div>
+        <div role="button" id="nav-toggler" class="flex flex-col gap-2 w-8 md:hidden items-end group">
+          <div class="toggler-line-1-inactive transition-all"></div>
+          <div class="toggler-line-2-inactive transition-all"></div>
+        </div>
+        <ul id="nav-menu"
+          class="absolute gap-4 pt-4 md:pt-0 flex flex-col bg-blue-500/80 text-center md:flex-row md:static md:bg-[transparent] h-screen w-screen md:h-auto md:w-auto top-16 left-0 transition-all translate-x-[100vw] md:translate-x-0">
+          <li class="text-yellow-200"><a href="#" class="text-center">Warta Ksatria</a></li>
+          <li class="text-yellow-200"><a href="../virtual-tour" class="text-center">Jelajah Udayana</a></li>
+          <li class="text-yellow-200"><a href="../ormawa.html" class="text-center">Ormawa</a></li>
+          <li class="text-yellow-200"><a href="#" class="text-center">Panitia</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="h-screen mt-16 py-2 w-4/5 mx-auto">
+    <h4
+      class="px-4 py-2 bg-blue-200 text-xl text-center lg:text-start sm:text-3xl text-white w-fit rounded-md font-semibold"
+      id="title">
+    </h4>
+    <!-- yg hidden dibawah view utk mobile -->
+    <div class="md:hidden flex-col py-6">
+      <div class="flex flex-rows-3 justify-center">
+        <div class="flex py-24">
+          <button class="page1 rounded-xl bg-yellow-400 p-2 hover:bg-yellow-700">
+            ⟵
+          </button>
+        </div>
+        <div class="h-56 w-56 px-4">
+          <img class="logoBEM max-h-full mx-auto" />
+        </div>
+        <div class="flex py-24">
+          <button class="page2 rounded-xl bg-yellow-400 p-2 hover:bg-yellow-700">
+            ⟶
+          </button>
+        </div>
+      </div>
+      <div class="bg-white rounded-sm shadow-md px-3 py-4 h-80 overflow-scroll">
+        <p class="text-md lg:text-lg font-serif deskripsi">
+        </p>
+      </div>
+    </div>
+    <!-- yg hidden dibawah ini utk view laptop -->
+    <div class="hidden md:block py-6">
+      <div class="grid grid-cols-12 w-full">
+        <div class="bg-white rounded-sm shadow-md p-4 h-80 col-span-8 overflow-scroll">
+          <p class="deskripsi text-md lg:text-lg font-serif ">
+          </p>
+        </div>
+        <div class="col-span-4">
+          <img src="" class="logoBEM max-h-80 mx-auto" />
+        </div>
+      </div>
+      <div class="flex flex-row my-4">
+        <div class="flex ml-32 justify-end gap-x-4 w-[850px] flex-row">
+          <div class="">
+            <button class="page1 rounded-xl bg-yellow-400 p-2 hover:bg-yellow-700">
+              ⟵
+            </button>
+          </div>
+          <div class="">
+            <button class="page2 rounded-xl bg-yellow-400 p-2 hover:bg-yellow-700">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus beatae dolorem maxime eligendi fuga aspernatur fugit praesentium, architecto laudantium in doloremque inventore veritatis enim porro quae, iste sint distinctio autem.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../js/script.js" type="module"></script>
+  <script src="../js/ormawa.js"></script>
+</body>
+
+</html>
