@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import { Link } from "react-router-dom";
 
 const images = [
@@ -22,7 +23,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col">
+    <div className="relative min-h-screen bg-center flex flex-col"
+    style={{backgroundImage: "url('/assets/images/background/background.webp')",}}
+    >
       <Navbar />
 
       {/* Hero Section */}
@@ -40,35 +43,179 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 flex flex-col justify-center items-center min-h-screen bg-black/40 backdrop-blur-sm px-8">
-          <h2 className="text-white text-4xl md:text-4xl text-center font-semibold mt-3 font-poppins">
+          <h2 className="text-white text-4xl md:text-4xl text-center font-semibold mt-4 font-poppins">
             Selamat Datang Ksatria Muda Udayana
           </h2>
-          <h1 className="text-white text-6xl md:text-7xl text-center font-bold mt-4 font-sinerva">
+          <h1 className="text-white text-6xl md:text-7xl text-center font-bold mt-4 font-sans">
             PKKMB Prabhu Udayana 2025
           </h1>
           <h3 className="text-white text-2xl md:text-2xl text-center font-medium mt-4 font-poppins">
-            Bersama Kita Wujudkan Generasi Emas Udayana
+            Pengenalan Kehidupan Kampus Mahasiswa Baru 2025
           </h3>
         </div>
       </div>
 
       {/* PKKMB Section */}
-      <section
-        id="pkkmb"
-        className="min-h-screen flex flex-col items-center justify-center px-8 py-20 bg-gray-100"
-        style={{ backgroundImage: `url('/assets/images/background/background.webp')` }}
-      >
-        <h2 className="text-4xl md:text-5xl font-bold font-sinerva text-center mb-6">
-          Apa Itu PKKMB?
-        </h2>
-        <p className="max-w-3xl text-lg text-center font-poppins leading-relaxed text-black">
-          PKKMB (Pengenalan Kehidupan Kampus bagi Mahasiswa Baru) adalah program resmi dari perguruan tinggi
-          yang bertujuan untuk membantu mahasiswa baru beradaptasi dengan lingkungan kampus, memahami nilai-nilai akademik,
-          serta membangun karakter sebagai insan intelektual yang kritis, inovatif, dan beretika.
-          <br /><br />
-          Melalui kegiatan ini, mahasiswa baru akan dikenalkan lebih dalam tentang sejarah, budaya, dan nilai-nilai luhur Universitas Udayana, termasuk tata cara perkuliahan, organisasi kemahasiswaan, dan peluang pengembangan diri.
-        </p>
-      </section>
+        <section
+            id="pkkmb"
+            className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 py-20 gap-12"
+            
+          >
+            <div className="flex-1">
+              <h2 className="text-4xl md:text-5xl font-bold font-sans mb-6 text-left text-yellow-400">
+                Apa Itu PKKMB?
+              </h2>
+              <p className="max-w-xl text-lg font-poppins leading-relaxed text-black text-left">
+                PKKMB (Pengenalan Kehidupan Kampus bagi Mahasiswa Baru) adalah program resmi dari perguruan tinggi
+                yang bertujuan untuk membantu mahasiswa baru beradaptasi dengan lingkungan kampus, memahami nilai-nilai akademik,
+                serta membangun karakter sebagai insan intelektual yang kritis, inovatif, dan beretika.
+                <br /><br />
+                Melalui kegiatan ini, mahasiswa baru akan dikenalkan lebih dalam tentang sejarah, budaya, dan nilai-nilai luhur Universitas Udayana, termasuk tata cara perkuliahan, organisasi kemahasiswaan, dan peluang pengembangan diri.
+              </p>
+            </div>
+
+            <div className="flex-1 grid grid-cols-2 gap-4">
+              <img
+                src="/assets/images/maba-1.JPG"
+                className="w-full h-auto object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+                alt="pkkmb1"
+              />
+              <img
+                src="/assets/images/maba-2.JPG"
+                className="w-full h-auto object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+                alt="pkkmb2"
+              />
+              <img
+                src="/assets/images/maba-3.JPG"
+                className="w-full h-auto object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+                alt="pkkmb3"
+              />
+              <img
+                src="/assets/images/maba-4.JPG"
+                className="w-full h-auto object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+                alt="pkkmb4"
+              />
+            </div>
+          </section>
+
+          {/* Maskot Section */}
+          <section 
+            id="maskot" 
+            className="min-h-screen mt-20 sm:mt-32"
+            >
+            
+            <div className="text-center sm:text-xl font-sans text-black">
+              “Hai Ksatria Muda Udayana! Kami adalah maskot PKKMB-Prabhu Udayana 2025 loh!
+            </div>
+            <div className="text-center sm:text-xl font-sans text-black mb-6">
+              Kami siap menyambut kalian semua di Universitas Udayana!”
+            </div>
+
+           <div className="flex justify-center mt-10">
+              <div className="relative">
+                {/* Dharma kiri atas */}
+                <h3 className="absolute top-0 left-2 sm:left-10 lg:left-20 text-3xl sm:text-5xl lg:text-6xl font-bold text-yellow-300 z-0">
+                  Dharma
+                </h3>
+
+                <img
+                  src="/assets/images/mascot/mascot.png"
+                  className="relative z-10 max-w-full h-64 sm:h-[500px] mx-auto"
+                  alt="Dharma & Patni"
+                />
+
+                {/* Patni kanan bawah */}
+                <h3 className="absolute bottom-2 sm:bottom-10 right-2 sm:right-10 lg:right-20 text-3xl sm:text-5xl lg:text-6xl font-bold text-yellow-300 z-0">
+                  Patni
+                </h3>
+              </div>
+            </div>
+
+            <div className="w-[850px] max-w-full sm:text-xl text-black font-sans bg-yellow-200 px-4 sm:px-10 py-4 mx-auto text-center mt-6 rounded-md">
+              <strong>Dharma</strong> dan <strong>Patni</strong> merupakan maskot PKKMB Prabhu Udayana.
+              Pada tahun ini, Dharma dan Patni kembali hadir dengan gaya baru dan tentunya lebih ganteng
+              dan cantik. Dharma dan Patni siap menyambut kalian semua di Universitas Udayana!
+            </div>
+          </section>
+
+          {/* Spirit Utama */}
+
+          <section id="spirit" className="mt-20 lg:mt-32 mx-4 md:mx-32 text-center">
+              <h3 className="text-2xl sm:text-5xl text-yellow-400 font-sans w-fit font-bold mx-auto">
+                Spirit Utama
+              </h3>
+              <p className="mt-8 text-black font-sans text-center text-xl">
+                <strong>Evolusi</strong> merujuk pada proses perubahan dari waktu ke
+                waktu yang secara bertahap (bertingkat) dimana sesuatu perubahan menjadi
+                bentuk lain yang lebih kompleks ataupun berubah menjadi bentuk yang
+                lebih baik.
+              </p>
+
+              <div className="mt-8 lg:mt-12 mx-6 sm:mx-16 xl:mx-32 text-center">
+                <div className="px-5 py-3 bg-yellow-200 text-xl sm:text-3xl text-black font-poppins w-fit rounded-md font-semibold mx-auto">
+                  3 Core Evolusi
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
+                  <div className="rounded-md p-1 bg-gradient-to-br from-yellow-300 to-white">
+                    <div className="w-full h-full bg-white rounded-md p-4">
+                      <h4 className="text-2xl text-center text-yellow-300">Adaptasi</h4>
+                      <img
+                        src="/assets/images/adaptasi.webp"
+                        alt="Adaptasi"
+                        className="mt-10 w-32 mx-auto max-w-full"
+                      />
+                      <p className="text-black font-sans text-center mt-8">
+                        Mahasiswa baru untuk pertama kalinya masuk ke pintu gerbang
+                        Universitas Udayana. Pada tahap ini, mereka akan menyesuaikan diri
+                        dengan lingkungan, sosial, budaya, dan seluk-beluk Universitas
+                        Udayana.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-md p-1 bg-gradient-to-br from-[#53D568] to-white">
+                    <div className="w-full h-full bg-white rounded-md p-4">
+                      <h4 className="text-2xl text-center text-green-300">Eksplorasi</h4>
+                      <img
+                        src="/assets/images/eksplorasi.webp"
+                        alt="Eksplorasi"
+                        className="mt-10 w-32 mx-auto max-w-full"
+                      />
+                      <p className="text-black font-sans text-center mt-8">
+                        Mahasiswa baru untuk pertama kalinya masuk ke pintu gerbang
+                        Universitas Udayana. Pada tahap ini, mereka akan menyesuaikan diri
+                        dengan lingkungan, sosial, budaya, dan seluk-beluk Universitas
+                        Udayana.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-md p-1 bg-gradient-to-br from-[#B1363E] to-white">
+                    <div className="w-full h-full bg-white rounded-md p-4">
+                      <h4 className="text-2xl text-center text-[#AE3A45]">Eskalasi</h4>
+                      <img
+                        src="/assets/images/eskalasi.webp"
+                        alt="Eskalasi"
+                        className="mt-10 w-32 mx-auto max-w-full"
+                      />
+                      <p className="text-black font-sans text-center mt-8">
+                        Setelah mereka sudah bisa beradaptasi dan juga mengeksplorasi
+                        potensi diri dan Udayana, barulah mereka akan sampai pada satu
+                        titik yang namanya “Eskalasi”, yang secara definisi berarti
+                        peningkatan kualitas diri seseorang.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+
+       <Footer />   
     </div>
   );
 }
+
+
