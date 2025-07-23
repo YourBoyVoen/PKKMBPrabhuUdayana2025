@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-8 py-4">
         <div className="flex items-center gap-2">
           <img
-            src="/assets/images/logopkkmb.png"
+            src="/assets/images/logofix.PNG"
             alt="Logo PKKMB"
             className="w-8 h-8 object-contain"
           />
