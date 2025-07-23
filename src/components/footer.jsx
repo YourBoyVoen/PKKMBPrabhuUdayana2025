@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { InstagramIcon, WhatsAppIcon} from "../icon/icon"; // Assuming you have these icons in a separate file
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         
         {/* Logo & Title */}
         <div className="flex items-center gap-4 justify-center sm:justify-start">
-          <img src="/assets/images/logopkkmb.png" alt="Logo PKKMB" className="w-16 sm:w-24" />
+          <img src="/assets/images/logofix.PNG" alt="Logo PKKMB" className="w-16 sm:w-24" />
           <h4 className="text-xl sm:text-3xl font-bold font-sans text-black">
             PKKMB Prabhu Udayana
           </h4>
@@ -19,18 +20,12 @@ export default function Footer() {
             <h5 className="text-xl font-semibold font-sans text-black mb-3">Instagram</h5>
             <ul className="space-y-2 text-black font-sans">
               <li className="flex items-center gap-2 hover:text-blue-500 transition">
-                <svg viewBox="0 0 24 24" className="w-4 fill-current" role="img">
-                  <title>Instagram</title>
-                  <path d="M7.03.084c-..." />
-                </svg>
-                <Link to="#">@ksatriamudaudayana</Link>
+                <InstagramIcon />
+                <Link to="https://www.instagram.com/prabhu_udayana?utm_source=ig_web_button_share_sheet&igsh=YmxvbzVnbzNkcHgw">@prabhu_udayana</Link>
               </li>
               <li className="flex items-center gap-2 hover:text-blue-500 transition">
-                <svg viewBox="0 0 24 24" className="w-4 fill-current" role="img">
-                  <title>Instagram</title>
-                  <path d="M7.03.084c-..." />
-                </svg>
-                <Link to="#">@bem_udayana</Link>
+                <InstagramIcon />
+                <Link to="https://www.instagram.com/bem_udayana?utm_source=ig_web_button_share_sheet&igsh=N3R4ZTZ1NDM2NXJ5">@bem_udayana</Link>
               </li>
             </ul>
           </div>
@@ -40,17 +35,11 @@ export default function Footer() {
             <h5 className="text-xl font-semibold font-sans text-black mb-3">Contact Person</h5>
             <ul className="space-y-2 text-black font-sans">
               <li className="flex items-center gap-2 hover:text-blue-500 transition">
-                <svg viewBox="0 0 24 24" className="w-4 fill-current" role="img">
-                  <title>WhatsApp</title>
-                  <path d="M17.472 14.382c-..." />
-                </svg>
+                <WhatsAppIcon />
                 <a href="#"> 089555356442 (Indra)</a>
               </li>
               <li className="flex items-center gap-2 hover:text-blue-500 transition">
-                <svg viewBox="0 0 24 24" className="w-4 fill-current" role="img">
-                  <title>WhatsApp</title>
-                  <path d="M17.472 14.382c-..." />
-                </svg>
+                <WhatsAppIcon />
                 <a href="#"> 085934539161 (Otniel)</a>
               </li>
             </ul>
