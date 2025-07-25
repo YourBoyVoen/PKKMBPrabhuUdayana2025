@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium font-poppins">
-          <li><Link to="/" className="hover:text-blue-500 transition">Warta Ksatria</Link></li>
+          <li><Link to="/wartaksatria" className="hover:text-blue-500 transition">Warta Ksatria</Link></li>
           <li><Link to="/jelajahudayana" className="hover:text-blue-500 transition">Jelajah Udayana</Link></li>
           <li><Link to="/informasi" className="hover:text-blue-500 transition">Informasi</Link></li>
           <li><Link to="/fakultas" className="hover:text-blue-500 transition">Fakultas</Link></li>

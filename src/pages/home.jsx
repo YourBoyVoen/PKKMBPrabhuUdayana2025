@@ -131,7 +131,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-[850px] max-w-full sm:text-xl text-black font-sans bg-yellow-200 px-4 sm:px-10 py-4 mx-auto text-center mt-6 rounded-md">
+            <div className="w-[850px] max-w-full sm:text-xl text-black font-sans bg-yellow-400 px-4 sm:px-10 py-4 mx-auto text-center mt-6 rounded-md">
               <strong>Dharma</strong> dan <strong>Patni</strong> merupakan maskot PKKMB Prabhu Udayana.
               Pada tahun ini, Dharma dan Patni kembali hadir dengan gaya baru dan tentunya lebih ganteng
               dan cantik. Dharma dan Patni siap menyambut kalian semua di Universitas Udayana!
@@ -145,23 +145,20 @@ export default function Home() {
                 Spirit Utama
               </h3>
               <p className="mt-8 text-black font-sans text-center text-xl">
-                <strong>Evolusi</strong> merujuk pada proses perubahan dari waktu ke
-                waktu yang secara bertahap (bertingkat) dimana sesuatu perubahan menjadi
-                bentuk lain yang lebih kompleks ataupun berubah menjadi bentuk yang
-                lebih baik.
+                <strong>Resiliensi</strong> merujuk pada kemampuan seseorang untuk menyesuaikan diri dengan baik ketika menghadapi tekanan, kesulitan, atau situasi yang menantang.
               </p>
 
               <div className="mt-8 lg:mt-12 mx-6 sm:mx-16 xl:mx-32 text-center">
-                <div className="px-5 py-3 bg-yellow-200 text-xl sm:text-3xl text-black font-poppins w-fit rounded-md font-semibold mx-auto">
-                  3 Core Evolusi
+                <div className="px-5 py-3 bg-yellow-400 text-xl sm:text-3xl text-black font-poppins w-fit rounded-md font-semibold mx-auto">
+                  3 Core Resiliensi
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
-                  <div className="rounded-md p-1 bg-gradient-to-br from-yellow-300 to-white">
+                  <div className="rounded-md p-1 bg-gradient-to-br from-blue-400 to-white">
                     <div className="w-full h-full bg-white rounded-md p-4">
-                      <h4 className="text-2xl text-center text-yellow-300">Adaptasi</h4>
+                      <h4 className="text-2xl text-center font-sans font-semibold text-black">Progresi</h4>
                       <img
-                        src="/assets/images/adaptasi.webp"
+                        src="/assets/images/progresi.png"
                         alt="Adaptasi"
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
@@ -174,11 +171,11 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="rounded-md p-1 bg-gradient-to-br from-[#53D568] to-white">
+                  <div className="rounded-md p-1 bg-gradient-to-br from-yellow-400 to-white">
                     <div className="w-full h-full bg-white rounded-md p-4">
-                      <h4 className="text-2xl text-center text-green-300">Eksplorasi</h4>
+                      <h4 className="text-2xl text-center font-sans font-semibold text-black">Adaptasi</h4>
                       <img
-                        src="/assets/images/eksplorasi.webp"
+                        src="/assets/images/adaptasi.webp"
                         alt="Eksplorasi"
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
@@ -193,9 +190,9 @@ export default function Home() {
 
                   <div className="rounded-md p-1 bg-gradient-to-br from-[#B1363E] to-white">
                     <div className="w-full h-full bg-white rounded-md p-4">
-                      <h4 className="text-2xl text-center text-[#AE3A45]">Eskalasi</h4>
+                      <h4 className="text-2xl text-center font-sans font-semibold text-black">Evolusi</h4>
                       <img
-                        src="/assets/images/eskalasi.webp"
+                        src="/assets/images/evolusi.webp"
                         alt="Eskalasi"
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
@@ -210,6 +207,70 @@ export default function Home() {
                 </div>
               </div>
             </section>
+
+            {/*Filosfi Logo*/}
+
+            <section className=" py-20 mt-20 px-6 sm:px-10" id="filosofi-logo">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+                  {/* Logo */}
+                  <div className="md:w-1/2 flex justify-center" >
+                    <img
+                      src="assets/images/logofix.PNG"
+                      alt="Logo Filosofi"
+                      className="max-w-sm w-full h-auto rounded-xl shadow-md bg-white"
+                    />
+                  </div>
+
+                  {/* Deskripsi Filosofi */}
+                  <div className="md:w-1/2 space-y-6 text-black font-sans">
+                    <h2 className="text-5xl font-bold font-sans text-yellow-400 mb-4">Filosofi Logo</h2>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">Bentuk Bunga Jeumpa (Cempaka)</h4>
+                      <p>
+                        Melambangkan kesucian, ketulusan, dan spiritualitas. Mewakili niat suci mahasiswa baru dalam menempuh pendidikan tinggi.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">Logo Resmi Universitas Udayana</h4>
+                      <p>
+                        Lingkaran pusat menunjukkan jantung akademik—visi, misi, dan nilai luhur Universitas Udayana sebagai arah pendidikan.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">Tiga Figur Manusia – Simbol Tri Dharma</h4>
+                      <p>
+                        Representasi dari Pendidikan, Penelitian, dan Pengabdian Masyarakat. Juga menggambarkan semangat kolaboratif mahasiswa.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">13 Kelopak Bunga – Representasi Fakultas</h4>
+                      <p>
+                        Menyimbolkan 13 fakultas di Universitas Udayana yang unik namun bersatu dalam harmoni akademik.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">Palet Warna PKKMB (UNO)</h4>
+                      <p>
+                        Biru (kebijaksanaan), Merah (semangat), Kuning (harapan), Hijau (pertumbuhan). Menggambarkan semangat dan keberagaman mahasiswa baru.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-lg font-sans text-black">Motif Tradisional Bali</h4>
+                      <p>
+                        Memberikan nuansa lokal yang kuat, menunjukkan integrasi budaya Bali dengan kemajuan akademik.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+             </section>
+
+
 
 
 

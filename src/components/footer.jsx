@@ -34,13 +34,13 @@ export default function Footer() {
           <div>
             <h5 className="text-xl font-semibold font-sans text-black mb-3">Contact Person</h5>
             <ul className="space-y-2 text-black font-sans">
-              <li className="flex items-center gap-2 hover:text-blue-500 transition">
+              <li className="flex items-center gap-2">
                 <WhatsAppIcon />
-                <a href="#"> 089555356442 (Indra)</a>
+                <span> 089555356442 (Indra)</span>
               </li>
-              <li className="flex items-center gap-2 hover:text-blue-500 transition">
+              <li className="flex items-center gap-2">
                 <WhatsAppIcon />
-                <a href="#"> 085934539161 (Otniel)</a>
+                <span> 085934539161 (Otniel)</span>
               </li>
             </ul>
           </div>

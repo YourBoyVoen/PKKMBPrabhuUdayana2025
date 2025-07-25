@@ -5,6 +5,7 @@ import Fakultas from './pages/fakultas';
 import Informasi from './pages/informasi';
 import Ormawa from './pages/ormawa';
 import JelajahUdayana from './pages/jelajahudayana';
+import WartaKsatria from './pages/wartaksatria';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/informasi" element={<Informasi />} />
         <Route path="/ormawa" element={<Ormawa />} />
         <Route path="/jelajahudayana" element={<JelajahUdayana />} />
+        <Route path="/wartaksatria" element={<WartaKsatria />} />
       </Routes>
     </Router>
   );
