@@ -3,19 +3,19 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 const daftarFakultas = [
-  { nama: "PKKMB Fakultas Ilmu Budaya Universitas Udayana Tahun 2024", 
+  { nama: "PKKMB Fakultas Ilmu Budaya Universitas Udayana Tahun 2025", 
     logo: "/assets/images/pkkmb-fakultas/fib.webp",
-    deskripsi: "PKKMB Fakultas Ilmu Budaya Universitas Udayana Tahun 2024"
+    deskripsi: "HARI PERTAMA: 24 AGUSTUS 2025 (AUDITORIUM WIDYA SABHA, JIMBARAN), HARI KEDUA: 31 AGUSTUS 2025 (AUDITORIUM WIDYA SABHA, JIMBARAN). CP:     Ni Putu Yuna Fortuna Nareswari (Fortuna): 081238126005/yunareswari, OFFICIAL AKUN PKKMB FIB: @pkkmbfibunud"
   },
 
-  { nama: "Fakultas Kedokteran", 
-    logo: "/assets/images/pkkmb-fakultas/fk.webp",
-    deskripsi: "PKKMB Fakultas Kedokteran Universitas Udayana Tahun 2024"
+  { nama: "PKKMB Fakultas Kedokteran Universitas Udayana Tahun 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fk.jpg",
+    deskripsi: "Tanggal Hari H: 18-19 Agustus 2025, CP Humas/Akun Sosmed: 081238212222 (Dessy Maheswari)/@pkkmbfkunud."
   },
 
-  { nama: "PKKMB IUSTITIA 2024", 
-    logo: "/assets/images/pkkmb-fakultas/fh.webp",
-    deskripsi: "PKKMB Fakultas Hukum Universitas Udayana Tahun 2024" 
+  { nama: "PKKMB IUSTITIA 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fh.png",
+    deskripsi: "Tanggal Hari H: 25-26 Agustus 2025, CP Humas/Akun Sosmed: 081246492177(Sasih Kirani)/@pkkmbiustitia." 
   },
 
   { nama: "PKKMB FT", 
@@ -23,49 +23,49 @@ const daftarFakultas = [
     deskripsi: "PKKMB Fakultas Teknik Universitas Udayana Tahun 2024" 
   },
 
-  { nama: "PKKMB Fakultas Pertanian", 
-    logo: "/assets/images/pkkmb-fakultas/fp.webp",
-    deskripsi: "PKKMB Fakultas Pertanian Universitas Udayana Tahun 2024" 
+  { nama: "PKKMB FP UNIVERSITAS UDAYANA 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fp.jpg",
+    deskripsi: "Tanggal Hari H: 19-20 Agustus 2025, CP Humas/Akun Sosmed: 0881037481170 (Yudhi)/@pkkmbfpunud." 
   },
 
-  { nama: "PKKMB Fakultas Ekonomi dan Bisnis Universitas Udayana 2024", 
+  { nama: "PKKMB FEB UNUD 2025", 
     logo: "/assets/images/pkkmb-fakultas/feb.webp", 
-    deskripsi: "PKKMB Fakultas Ekonomi dan Bisnis Universitas Udayana Tahun 2024"
+    deskripsi: "Tanggal Hari H: 18-19 Agustus 2025, CP Humas/Akun Sosmed: 087729011523 (Jesicha Dwijayati)/@pkkmbfebunud."
   },
 
-  { nama: "PKKMB GOPALA Udayana", 
-    logo: "/assets/images/pkkmb-fakultas/fapet.webp", 
-    deskripsi: "PKKMB Fakultas Peternakan Universitas Udayana Tahun 2024"
+  { nama: "PKKMB Gopala Udayana 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fapet.png", 
+    deskripsi: "Tanggal Hari H: 19-20 Agustus 2025, CP Humas/Akun Sosmed: 085337120211(Laura)/-."
   },
 
-  { nama: "PKKMB Prabu FMIPA 2024", 
-    logo: "/assets/images/pkkmb-fakultas/fmipa.webp",
-    deskripsi: "PKKMB Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Udayana Tahun 2024"
+  { nama: "PKKMB Prabu FMIPA 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fmipa.png",
+    deskripsi: "Tanggal Hari H: 20-21 Agustus 2025, CP Humas/Akun Sosmed: 082339890210(Isaka)/@prabufmipa."
   },
 
-  { nama: "Insan Muda Veteriner", 
-    logo: "/assets/images/pkkmb-fakultas/fkh.webp",
-    deskripsi: "PKKMB Fakultas Kedokteran Hewan Universitas Udayana Tahun 2024" 
+  { nama: "PKKMB Insan Muda Veteriner 2025", 
+    logo: "/assets/images/pkkmb-fakultas/fkh.png",
+    deskripsi: "Tanggal Hari H: 24-25 Agustus 2025, CP Humas/Akun Sosmed: 081286317773/@insanmudaveteriner." 
   },
 
   { nama: "PKKMB Ksatria Parayana", 
-    logo: "/assets/images/pkkmb-fakultas/fpar.webp",
-    deskripsi: "PKKMB Fakultas Pariwisata Universitas Udayana Tahun 2024"
+    logo: "/assets/images/pkkmb-fakultas/fpar.png",
+    deskripsi: "Tanggal Hari H: 16-17 Agustus 2025, CP Humas/Akun Sosmed: 081917260044 (Triana)/@bemfpar_unud."
   },
 
-  { nama: "PKKMB FTP 2024", 
+  { nama: "PKKMB Fakultas Teknologi Pertanian 2025", 
     logo: "/assets/images/pkkmb-fakultas/ftp.webp", 
-    deskripsi: "PKKMB Fakultas Teknologi Pertanian Universitas Udayana Tahun 2024"
+    deskripsi: "Tanggal Hari H: 21-22 Agustus 2025, CP Humas/Akun Sosmed: @pkkmbftpunud."
   },
 
-  { nama: "PKKMB Grafis( Gema Restorasi FISIP)",
-    logo: "/assets/images/pkkmb-fakultas/fisip.webp",
-    deskripsi: "PKKMB Fakultas Ilmu Sosial dan Ilmu Politik Universitas Udayana Tahun 2024"
+  { nama: "Gema Restorasi FISIP 2025",
+    logo: "/assets/images/pkkmb-fakultas/fisip.jpg",
+    deskripsi: "Tanggal Hari H: 27-28 Agustus, CP Humas/Akun Sosmed: 081238452655(Metha Oka)/@grafis_2025."
   },
 
-  { nama: "OMBAK FKP 2024", 
+  { nama: "OMBAK PKKMB FKP 2025", 
     logo: "/assets/images/pkkmb-fakultas/fkp.webp",
-    deskripsi: "PKKMB Fakultas Kesehatan Masyarakat Universitas Udayana Tahun 2024"
+    deskripsi: "Tanggal Hari H: 18-19 Agustus 2025, CP Humas/Akun Sosmed: 085932908932 (Maha)/@pkkmbfkpunud."
   },
 ];
 

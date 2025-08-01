@@ -163,10 +163,7 @@ export default function Home() {
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
                       <p className="text-black font-sans text-center mt-8">
-                        Mahasiswa baru untuk pertama kalinya masuk ke pintu gerbang
-                        Universitas Udayana. Pada tahap ini, mereka akan menyesuaikan diri
-                        dengan lingkungan, sosial, budaya, dan seluk-beluk Universitas
-                        Udayana.
+                        Dorongan untuk maju, berkembang, dan tidak berhenti pada satu titik pencapaian. Mahasiswa baru diajak untuk memiliki growth mindset, yaitu memandang setiap proses, termasuk kegagalan, sebagai bagian dari kemajuan.
                       </p>
                     </div>
                   </div>
@@ -180,10 +177,7 @@ export default function Home() {
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
                       <p className="text-black font-sans text-center mt-8">
-                        Mahasiswa baru untuk pertama kalinya masuk ke pintu gerbang
-                        Universitas Udayana. Pada tahap ini, mereka akan menyesuaikan diri
-                        dengan lingkungan, sosial, budaya, dan seluk-beluk Universitas
-                        Udayana.
+                        Kemampuan untuk menyesuaikan diri dengan perubahan, baik dalam lingkungan akademik, sosial, maupun teknologi. Melalui adaptasi, mahasiswa diharapkan mampu tetap bertahan dan berdaya di tengah situasi yang tidak pasti.
                       </p>
                     </div>
                   </div>
@@ -197,10 +191,7 @@ export default function Home() {
                         className="mt-10 w-32 mx-auto max-w-full"
                       />
                       <p className="text-black font-sans text-center mt-8">
-                        Setelah mereka sudah bisa beradaptasi dan juga mengeksplorasi
-                        potensi diri dan Udayana, barulah mereka akan sampai pada satu
-                        titik yang namanya “Eskalasi”, yang secara definisi berarti
-                        peningkatan kualitas diri seseorang.
+                        Menggambarkan transformasi yang berkelanjutan menuju versi terbaik dari diri sendiri. Mahasiswa baru diajak untuk tidak hanya menyesuaikan diri, tapi juga berkembang menjadi pribadi yang lebih matang, kreatif, dan visioner.
                       </p>
                     </div>
                   </div>
